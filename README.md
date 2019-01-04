@@ -7,3 +7,11 @@ Sample example to use [LÖVE(love2d.org)](https://love2d.org/) 2D game framework
 </p>
 
 Look familiar? The basic layout & color scheme were borrowed from [freeboard.io](https://freeboard.io/)
+
+**macOS**(UI Development Phase)
+```
+$ brew install lua
+Download love.app from https://love2d.org/
+$ vi ~/.bash_profile   <- alias love="/Applications/love.app/Contents/MacOS/love"
+```
+> $ love `<game-directroy>`
