@@ -1,4 +1,4 @@
-# IoT Dashboard with LÖVE Game Framework
+# IoT Dashboard with LÖVE 2D Game Framework
 
 Sample example to use [LÖVE(love2d.org)](https://love2d.org/) 2D game framework for IoT Dashboard Design (3.5" screen, 320 x 240)
 
