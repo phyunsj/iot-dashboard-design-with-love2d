@@ -8,7 +8,7 @@ Sample example to use [LÖVE(love2d.org)](https://love2d.org/) 2D game framework
 
 Look familiar? The basic layout & color scheme were borrowed from [freeboard.io](https://freeboard.io/)
 
->:pushpin: **The intention of this excericse is to demonstrate 1. faster UI design 2. script-based (easy update) 3. Direct LCD display**
+>:pushpin: **The intention of this excericse is to demonstrate 1. script-based (lua) 2. faster UI design (easy deployment) 3. Direct LCD display**
 
 **macOS** (UI Development Phase)
 ```
