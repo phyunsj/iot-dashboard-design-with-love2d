@@ -17,3 +17,10 @@ Download love.app from https://love2d.org/
 $ vi ~/.bash_profile   <- alias love="/Applications/love.app/Contents/MacOS/love"
 $ love <game-directroy>
 ```
+
+### Related Posts
+
+- [lua](https://www.lua.org/)
+- [LÖVE](https://love2d.org/)
+- [LÖVE libraries, projects, and resources](https://github.com/love2d-community/awesome-love2d)
+- [freeboard](https://github.com/Freeboard/freeboard)
