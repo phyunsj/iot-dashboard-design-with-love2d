@@ -8,10 +8,12 @@ Sample example to use [LÖVE(love2d.org)](https://love2d.org/) 2D game framework
 
 Look familiar? The basic layout & color scheme were borrowed from [freeboard.io](https://freeboard.io/)
 
-**macOS**(UI Development Phase)
+>:pushpin: **The intention of this excericse is to demonstrate 1. faster UI design 2. script-based 3. Direct LCD display**
+
+**macOS** (UI Development Phase)
 ```
 $ brew install lua
 Download love.app from https://love2d.org/
 $ vi ~/.bash_profile   <- alias love="/Applications/love.app/Contents/MacOS/love"
+$ love <game-directroy>
 ```
-> $ love `<game-directroy>`
