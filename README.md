@@ -26,9 +26,7 @@ $ love <game-directroy>
 <img src="https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/images/dashboard_love2d_components.png" width="400px"/>
 </p>
 
-The major task is to calculate x- and y-coordinates. 
-
-For example (**Chart:draw()** in [chart.lua](https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/dash_love2d/chart.lua)), 
+The major task is to calculate x- and y-coordinates. For example (**Chart:draw()** in [chart.lua](https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/dash_love2d/chart.lua)), 
 
 ```
     love.graphics.setColor(gray2Color)
