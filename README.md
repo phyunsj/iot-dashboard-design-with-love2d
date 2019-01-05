@@ -23,4 +23,6 @@ $ love <game-directroy>
 - [lua](https://www.lua.org/)
 - [LÖVE](https://love2d.org/)
 - [LÖVE libraries, projects, and resources](https://github.com/love2d-community/awesome-love2d)
+- [**SUIT** : Simple User Interface Toolkit for LÖVE](https://github.com/vrld/SUIT)
+- [Let's make some games with LÖVE 11](https://simplegametutorials.github.io/)
 - [freeboard](https://github.com/Freeboard/freeboard)
