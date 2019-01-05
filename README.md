@@ -20,7 +20,7 @@ $ love <game-directroy>
 
 **LÖVE** calls 3 functions in [main.lua](https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/dash_love2d/main.lua). It calls `love.load()` first then `love.update()` and `love.draw()` repeatedly. In other words, `love.load`-> `love.update` -> `love.draw` -> `love.update` -> `love.draw` -> `love.update` -> ... .
 
-**LÖVE** Dashboard Components : [Label](https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/dash_love2d/label.lua)(RED), [Gauge](https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/dash_love2d/gauge.lua)(GREEN), [Chart](https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/dash_love2d/chart.lua)(Blue) 
+**LÖVE** Dashboard Components : [Label](https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/dash_love2d/label.lua) (RED), [Gauge](https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/dash_love2d/gauge.lua) (GREEN), [Chart](https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/dash_love2d/chart.lua) (BLUE) 
 
 <p align="center">
 <img src="https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/images/dashboard_love2d_components.png" width="400px"/>
