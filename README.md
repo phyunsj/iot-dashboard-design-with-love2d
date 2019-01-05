@@ -18,10 +18,12 @@ $ vi ~/.bash_profile   <- alias love="/Applications/love.app/Contents/MacOS/love
 $ love <game-directroy>
 ```
 
+**LÖVE** calls 3 functions. It calls `love.load()` first then `love.update()` and `love.draw()` repeatedly. In other words, `love.load`-> `love.update` -> `love.draw` -> `love.update` -> `love.draw` -> `love.update` -> ... .
+
 ### Related Posts
 
 - [**Lua** Programming Language](https://www.lua.org/)
-- [LÖVE](https://love2d.org/)
+- [LÖVE](https://love2d.org/) 2D game framework made with C++,OpenGL
 - [LÖVE libraries, projects, and resources](https://github.com/love2d-community/awesome-love2d)
 - [**SUIT** : Simple User Interface Toolkit for LÖVE](https://github.com/vrld/SUIT)
 - [Let's make some games with LÖVE 11](https://simplegametutorials.github.io/)
