@@ -18,7 +18,15 @@ $ vi ~/.bash_profile   <- alias love="/Applications/love.app/Contents/MacOS/love
 $ love <game-directroy>
 ```
 
-**LÖVE** calls 3 functions. It calls `love.load()` first then `love.update()` and `love.draw()` repeatedly. In other words, `love.load`-> `love.update` -> `love.draw` -> `love.update` -> `love.draw` -> `love.update` -> ... .
+**LÖVE** calls 3 functions [main.lua](https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/dash_love2d/main.lua). It calls `love.load()` first then `love.update()` and `love.draw()` repeatedly. In other words, `love.load`-> `love.update` -> `love.draw` -> `love.update` -> `love.draw` -> `love.update` -> ... .
+
+**LÖVE** Dashboard Components : <span style="color:red">Label(RED)</span>, Gauge(GREEN), Chart(Blue) 
+
+<p align="center">
+<img src="https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/images/dashboard_love2d_components.png" width="400px"/>
+</p>
+
+
 
 ### Related Posts
 
