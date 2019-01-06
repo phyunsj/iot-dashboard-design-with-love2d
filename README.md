@@ -1,6 +1,6 @@
 # IoT Dashboard Design with [LÖVE](https://love2d.org/) 2D Game Framework
 
-3.5" Screen Size (480 x 320 pixels)
+3.5" Screen Size (480 x 320 pixels). Simulated on macOS.
 
 <p align="center">
 <img src="https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/images/dashboard-love2d-480x320.gif" width="400px"/>
