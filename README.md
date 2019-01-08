@@ -38,7 +38,7 @@ From [Getting Started->iOS](https://love2d.org/wiki/Getting_Started).
 6. Drag <your-game>.love onto LÖVE app.
 ```
 
-### Raspberry Pi3
+### Raspberry Pi3 Model B+ (w/ Fedberry-29.1)
 
 Supposely plugged in with 3.5" HDMI LCD Display (480 x 320 pixels). The data was simulated.
 
