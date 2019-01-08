@@ -1,6 +1,6 @@
 # IoT Dashboard Design with [LÖVE](https://love2d.org/) 2D Game Framework
 
-**macOS**
+### macOS
 
 ```
 1. $ brew install lua
@@ -22,7 +22,7 @@ Look familiar? The basic layout & color scheme were borrowed from [freeboard.io]
 >:pushpin: **The intention of this excericse is to demonstrate 1. script-based (lua) 2. faster UI design (+ easy deployment) 3. Direct LCD display**
 
 
-**iOS**
+### iOS
 
 The data was simulated. Need the additional layer to collect the real data.
 
@@ -40,6 +40,8 @@ More Info from https://love2d.org/wiki/Getting_Started. Read iOS section.
 5. Create <your-game>.love  <-  "zip -9 -r dash.love ."
 6. Drag <your-game>.love onto LÖVE app.
 ```
+
+### How-To LÖVE
 
 **LÖVE** calls 3 functions in [main.lua](https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/dash_love2d/main.lua). It calls `love.load()` first then `love.update()` and `love.draw()` repeatedly. In other words, `love.load`-> `love.update` -> `love.draw` -> `love.update` -> `love.draw` -> `love.update` -> ... .
 
