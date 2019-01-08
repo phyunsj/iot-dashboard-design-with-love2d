@@ -48,6 +48,7 @@ From [Getting Started->iOS](https://love2d.org/wiki/Getting_Started).
 <img src="https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/images/dash-love2d-pi3.gif" width="400px"/>
 </p>
 
+Reference : [Developing Games on the Raspberry Pi](https://www.amazon.com/Developing-Games-Raspberry-Pi-Programming/dp/148424169X/ref=sr_1_3?ie=UTF8&qid=1546957383&sr=8-3&keywords=love+game+pi)
 ```
 Prepare microSD card for Pi3.
  
@@ -69,7 +70,6 @@ Run  LÖVE
 1. $ git clone git@github.com:phyunsj/iot-dashboard-design-with-love2d.git
 2. $ cd iot-dashboard-design-with-love2d/dash_love2d
 3. $ love .
-
 ```
 
 ### How-To LÖVE
