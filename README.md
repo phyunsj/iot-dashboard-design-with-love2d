@@ -61,7 +61,7 @@ Install LÖVE & additional packages after boot
 
 1. $ sudo dnf install lua
 2. $ sudo dnf install git
-3. Download LÖVE rpm (love-99f37ac-1.fc27.armv7hl.rpm. Last modified 2018-09-16 06:45) from klaatu.fedorapeople.org
+3. Download LÖVE rpm (Last modified 2018-09-16) from klaatu.fedorapeople.org
 4. $ sudo dnf install ~/Downloads/love-99f37ac-1.fc27.armv7hl.rpm
 
 Run  LÖVE
