@@ -24,7 +24,7 @@ Look familiar? The basic layout & color scheme were borrowed from [freeboard.io]
 
 ### iOS
 
-The data was simulated. Need the additional layer to collect the real data.
+The data was simulated.
 
 <p align="center">
 <img src="https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/images/dashboard-love2d-ios-sim.gif" width="400px"/>
@@ -40,6 +40,37 @@ From [Getting Started->iOS](https://love2d.org/wiki/Getting_Started).
 6. Drag <your-game>.love onto LÖVE app.
 ```
 
+### Raspberry Pi3
+
+3.5" Screen Size (480 x 320 pixels). The data was simulated.
+
+<p align="center">
+<img src="https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/images/dash-love2d-pi3.gif" width="400px"/>
+</p>
+
+```
+Prepare microSD card for Pi3.
+ 
+1. Download the Fedberry LXQT image from fedberry/fedberry (Fedora )
+2. Download and install the Etcher application from www.balena.io/etcher
+3. In the Etcher window, select the Fedberry image file
+4. Select the SD card as the destination.
+5. Click the Flash button.
+
+Install LÖVE & additional packages after boot
+
+1. $ sudo dnf install lua
+2. $ sudo dnf install git
+3. Download LÖVE rpm (love-99f37ac-1.fc27.armv7hl.rpm. Last modified 2018-09-16 06:45) from klaatu.fedorapeople.org
+4. $ sudo dnf install ~/Downloads/love-99f37ac-1.fc27.armv7hl.rpm
+
+Run  LÖVE
+
+1. $ git clone git@github.com:phyunsj/iot-dashboard-design-with-love2d.git
+2. $ cd iot-dashboard-design-with-love2d/dash_love2d
+3. $ love .
+
+```
 
 ### How-To LÖVE
 
