@@ -51,9 +51,9 @@ From [Getting Started->iOS](https://love2d.org/wiki/Getting_Started).
 ```
 Prepare microSD card for Pi3.
  
-1. Download the Fedberry LXQT image from fedberry/fedberry (Fedora )
+1. Download the Fedberry(Fedora) LXQT image from https://github.com/fedberry/fedberry/releases
 2. Download and install the Etcher application from www.balena.io/etcher
-3. In the Etcher window, select the Fedberry image file
+3. In the Etcher window, select the Fedberry image file.(fedberry-xfce-29.1.raw.xz for this example)
 4. Select the SD card as the destination.
 5. Click the Flash button.
 
