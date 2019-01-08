@@ -143,8 +143,8 @@ The major task is to calculate x- and y-coordinates accordingly. For example, **
 ### Related Posts
 
 - [**Lua** Programming Language](https://www.lua.org/)
-- [LÖVE](https://love2d.org/) 2D game framework made with C++,OpenGL
-- [LÖVE libraries, projects, and resources](https://github.com/love2d-community/awesome-love2d)
+- [**LÖVE**](https://love2d.org/) 2D game framework made with C++,OpenGL
+- [**LÖVE** libraries, projects, and resources](https://github.com/love2d-community/awesome-love2d)
 - [**SUIT** : Simple User Interface Toolkit for LÖVE](https://github.com/vrld/SUIT)
-- [Let's make some games with LÖVE 11](https://simplegametutorials.github.io/)
-- [freeboard](https://github.com/Freeboard/freeboard)
+- [Let's make some games with **LÖVE** 11](https://simplegametutorials.github.io/)
+- [**freeboard** : open source real-time dashboard builder for IoT](https://github.com/Freeboard/freeboard)
