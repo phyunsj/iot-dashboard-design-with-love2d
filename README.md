@@ -6,7 +6,11 @@
 <img src="https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/images/dashboard-love2d-480x320.gif" width="400px"/>
 </p>
 
+
+
 Look familiar? The basic layout & color scheme were borrowed from [freeboard.io](https://freeboard.io/)
+
+
 
 >:pushpin: **The intention of this excericse is to demonstrate 1. script-based (lua) 2. faster UI design (+ easy deployment) 3. Direct LCD display**
 
@@ -17,6 +21,17 @@ Look familiar? The basic layout & color scheme were borrowed from [freeboard.io]
 3. $ vi ~/.bash_profile   <- alias love="/Applications/love.app/Contents/MacOS/love"
 4. $ love <game-directroy>
 ```
+
+**iOS simulator**
+_Of course, need the additional layer to collect the real data_
+
+<p align="center">
+<img src="https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/images/dashboard-love2d-ios-sim.gif" width="400px"/>
+</p>
+
+More Info from https://love2d.org/wiki/Getting_Started. Read iOS section to build love2d Xcode project.
+
+> zip -9 -r dash.love .
 
 **LÖVE** calls 3 functions in [main.lua](https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/dash_love2d/main.lua). It calls `love.load()` first then `love.update()` and `love.draw()` repeatedly. In other words, `love.load`-> `love.update` -> `love.draw` -> `love.update` -> `love.draw` -> `love.update` -> ... .
 
