@@ -1,20 +1,7 @@
 # IoT Dashboard Design with [LÖVE](https://love2d.org/) 2D Game Framework
 
-3.5" Screen Size (480 x 320 pixels). Simulated on macOS.
-
-<p align="center">
-<img src="https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/images/dashboard-love2d-480x320.gif" width="400px"/>
-</p>
-
-
-
-Look familiar? The basic layout & color scheme were borrowed from [freeboard.io](https://freeboard.io/)
-
-
-
->:pushpin: **The intention of this excericse is to demonstrate 1. script-based (lua) 2. faster UI design (+ easy deployment) 3. Direct LCD display**
-
 **macOS**
+
 ```
 1. $ brew install lua
 2. Download love.app from https://love2d.org/
@@ -22,24 +9,37 @@ Look familiar? The basic layout & color scheme were borrowed from [freeboard.io]
 4. $ love <game-directroy>
 ```
 
-**iOS simulator**
+3.5" Screen Size (480 x 320 pixels). The data was simulated.
 
-_Of course, need the additional layer to collect the real data_
+<p align="center">
+<img src="https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/images/dashboard-love2d-480x320.gif" width="400px"/>
+</p>
+
+
+Look familiar? The basic layout & color scheme were borrowed from [freeboard.io](https://freeboard.io/)
+
+
+>:pushpin: **The intention of this excericse is to demonstrate 1. script-based (lua) 2. faster UI design (+ easy deployment) 3. Direct LCD display**
+
+
+**iOS**
+
+The data was simulated. Need the additional layer to collect the real data.
 
 <p align="center">
 <img src="https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/images/dashboard-love2d-ios-sim.gif" width="400px"/>
 </p>
 
 ```
-1. Open the Xcode project found at love/platform/xcode/love.xcodeproj and select the "love-ios" target
-2. Choose an iOS Simulator device 
-3. Click the Build-and-Run ▶︎ button
-4. Create <your-game>.love  <-  "zip -9 -r dash.love ."
-5. Drag <your-game>.love onto LÖVE app.
-```
 More Info from https://love2d.org/wiki/Getting_Started. Read iOS section. 
 
-
+1. Download iOS source from https://love2d.org.
+2. Open the Xcode project found at love/platform/xcode/love.xcodeproj and select the "love-ios" target
+3. Choose an iOS Simulator device 
+4. Click the Build-and-Run ▶︎ button
+5. Create <your-game>.love  <-  "zip -9 -r dash.love ."
+6. Drag <your-game>.love onto LÖVE app.
+```
 
 **LÖVE** calls 3 functions in [main.lua](https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/dash_love2d/main.lua). It calls `love.load()` first then `love.update()` and `love.draw()` repeatedly. In other words, `love.load`-> `love.update` -> `love.draw` -> `love.update` -> `love.draw` -> `love.update` -> ... .
 
