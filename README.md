@@ -1,5 +1,7 @@
 # IoT Dashboard Design with [LÖVE](https://love2d.org/) 2D Game Framework
 
+>:pushpin: **The intention of this excericse is to demonstrate 1. script-based (lua) 2. faster UI design (+ easy deployment) 3. Direct LCD display**
+
 ### macOS
 
 ```
@@ -16,11 +18,7 @@
 </p>
 
 
-Look familiar? The basic layout & color scheme were borrowed from [freeboard.io](https://freeboard.io/)
-
-
->:pushpin: **The intention of this excericse is to demonstrate 1. script-based (lua) 2. faster UI design (+ easy deployment) 3. Direct LCD display**
-
+Look familiar? The basic layout & color scheme were borrowed from [**freeboard.io**](https://freeboard.io/)
 
 ### iOS
 
@@ -42,7 +40,7 @@ From [Getting Started->iOS](https://love2d.org/wiki/Getting_Started).
 
 ### Raspberry Pi3
 
-3.5" Screen Size (480 x 320 pixels). The data was simulated.
+Supposely plugged in with 3.5" HDMI LCD Display (480 x 320 pixels). The data was simulated.
 
 <p align="center">
 <img src="https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/images/dash-love2d-pi3.gif" width="400px"/>
