@@ -47,6 +47,11 @@ Supposely plugged in with 3.5" HDMI LCD Display (480 x 320 pixels). The data was
 </p>
 
 Reference : [**Developing Games on the Raspberry Pi**](https://www.amazon.com/Developing-Games-Raspberry-Pi-Programming/dp/148424169X/ref=sr_1_1?ie=UTF8&qid=1546957565&sr=8-1&keywords=Developing+Games+on+the+Raspberry+Pi)
+
+<p align="left">
+<a href="https://www.amazon.com/Developing-Games-Raspberry-Pi-Programming/dp/148424169X/ref=sr_1_1?ie=UTF8&qid=1546957565&sr=8-1&keywords=Developing+Games+on+the+Raspberry+Pi"><img src="https://github.com/phyunsj/iot-dashboard-design-with-love2d/blob/master/images/developing.games.on.pi.jpg" width="100px"/></a>
+</p>
+
 ```
 Prepare microSD card for Pi3.
  
